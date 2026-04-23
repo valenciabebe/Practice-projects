@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+    color:white;
+}
+
+/* Background Image */
+
+.hero-img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:1;
+}
+
+/* Dark Overlay */
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+    z-index:2;
+}
+
+/* Header */
+
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 50px;
+    z-index:3;
+}
+
+.logo{
+    height:40px;
+}
+
+.signin{
+    float:right;
+    background:#e50914;
+    color:white;
+    border:none;
+    padding:8px 16px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+/* Hero Text */
+
+.hero-content{
+    position:relative;
+    z-index:3;
+    text-align:center;
+    top:40%;
+    transform:translateY(-40%);
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:15px;
+    }
+
+.hero-content h3{
+    margin-bottom:10px;
+}
+
+.hero-content p{
+    margin-bottom:20px;
+}
+
+.email-box input{
+    padding:12px;
+    width:250px;
+}
+
+.email-box button{
+    padding:12px 20px;
+    background:#e50914;
+    color:white;
+    border:none;
+}

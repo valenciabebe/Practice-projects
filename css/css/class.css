@@ -1,0 +1,11 @@
+*{
+    padding: 10px;
+    margin-left: 5px;
+    border: 5px solid blue;
+}
+
+p{
+    background-color: rgb(193, 230, 27);
+    color:rgb(228, 19, 197);
+    box-sizing: border-box;
+}

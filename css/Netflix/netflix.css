@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header img{
+    height:40px;
+    display:inline-block;
+    vertical-align: middle;
+}
+header button{
+    vertical-align: middle;
+    float:right;
+} */
+
+
+
+.main-card{
+    position: relative;
+    height:100vh;
+    overflow:hidden;
+}
+.gallery{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.overlay{
+    position:absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+
+header{
+    max-width:1200px;
+    margin:0 auto;
+    padding:20px 40px;
+
+    
+}
+
+header img{
+    height:60px;
+    position: absolute;
+    top:2rem;
+}
+
+header button{
+    float:right;
+    margin-top: 8px;
+    padding: 8px 8px;
+}

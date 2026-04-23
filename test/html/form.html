@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/JPG" href="../images/IMG_7413 (1).JPG">
+    <title>Document</title>
+    <!-- <style>
+        input:active{
+            color: orange;
+        }
+    </style> -->
+    <style>
+        label{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <label for="fullname">Fullname:</label>
+        <input
+        type = "text"
+        placeholder="first last"
+        id = "fullname">
+
+        <br>
+
+        <label for = "email"> Email: </label>
+        <input type="email" placeholder = "abc@gmail.com"
+        id="email">
+
+        <br>
+
+        </fieldset>
+
+
+        <fieldset>
+            <label for = "password"> Password:</label>
+        <input
+        type = "password"
+        placeholder = "strong password only"
+        id="password">
+
+        <br>
+        <label for ="age">Age:</label>
+        <input type = "number" placeholder = "Enter your age" id = "age">
+
+        <br>
+        <label for = "date-of-birth">Date of Birth:</label>
+        <input type = "date"
+        id = "date-of-birth">
+
+        <br>
+        <label for = "datetime">Meeting Time:</label>
+        <input type = "datetime-local"
+        id = "datetime">
+        <br>
+        <label for = "framework">Preferred Framework</label>
+        <select id = "framework">
+            <option value=""> Select</option>
+            <option value=""> React</option>
+            <option value=""> Vue</option>
+            <option value=""> Angular</option>
+        </select>
+        <br>
+
+        <label for = "gender"> Gender: </label>
+        <br>
+        <label for = "male"> Male: </label>
+        <input type = "radio" name = "gender" id = "male">
+        <label for = "female"> Female: </label>
+        <input type = "radio" name = "gender" id = "female">
+        <label>
+            Other:
+            <input type = "radio" name = "gender">
+        </label>
+
+        <br>
+        <label for = "skills">Technical Skills</label> <br>
+        <label for="html"> HTML</label>
+        <input type="checkbox" id="html" name="html" value="html"> <br>
+        <label for="css"> CSS</label>
+        <input type="checkbox" id="css" name="css" value="css"> <br>
+        <label for="react"> REACT</label>
+        <input type="checkbox" id="react" name="react" value="react"> <br>
+        <label for="javascript"> JavaScript</label>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript" checked> <br>
+
+        <label for = "phone-number">Phone Number:</label>
+        <input  type = "tel" placeholder="+2349058853532" id="phone-number" name = "phone">
+        <br>
+        <label for = "github">Github Profile:</label>
+        <input  type = "url" placeholder="www.github.com/username" id="github" name = "repository">
+        <br>
+        <label for = "search">Search:</label>
+        <input  type = "search" placeholder="Search..." id="search" name = "search">
+        <br>
+        <label for = "preferred-color">Preferred Color:</label>
+        <input  type = "color"  id="preferred-color" name = "preferred-color"> <br>
+        <label for = "ratings">Rate your technical Skills:</label> <br>
+        <input  type = "range"  id="ratings" name = "ratings" min = "1" max = "10">
+        <br>
+        <label for = "uploads">Upload CV</label> <br>  
+        <input  type = "file"  id="cv" name = "cv" multiple accept = ".pdf">
+
+        <br>
+        <label>
+        Comment
+        <br>
+        <textarea name="comment" id="comment" rows=""  cols="" placeholder="Your comment here..."></textarea>
+    </label>
+        </fieldset>
+        <!-- buttons are inline elements  -->
+         
+    <button type = "reset">
+        Reset
+    </button>
+    <button type = "submit">
+        Submit
+    </button>
+
+    
+    </form>
+    
+</body>
+</html>

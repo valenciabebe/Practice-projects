@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box1{
+    background-color: pink;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:1rem;
+    padding: 2rem 1rem;
+}
+
+@media(max-width: 1000px){
+    .box1{
+        background-color: yellow;
+        color:black;
+    }
+}
+
+@media(max-width: 700px){
+    .box1{
+        background-color: green;
+        color:white;
+    }
+}
